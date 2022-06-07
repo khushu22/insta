@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: white;
+}
+body{
+   
+    background-color: black;
+    height: 900px;
+}
+
+header{
+    /* border: 2px solid red; */
+ 
+    /* width: 90%; */
+    margin: 0rem auto;
+    background-color: rgb(48, 47, 47);
+    padding: 0.3rem;
+    /* position: sticky;
+    top: 0; */
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#arrow{
+    height: 20px;
+    width: 30px;
+    margin-left: 1rem;
+}
+
+#call{
+    height: 20px;
+    width: 20px;
+}
+
+#video{
+    height: 20px;
+    width: 20px;
+    margin-left: 1rem;
+
+}
+
+.name{
+    /* margin-left: 2rem; */
+    display: flex;
+    align-items: center;
+    /* margin-right:8rem; */
+
+}
+
+.text1{
+    margin-left: 1rem;
+}
+
+.text1 h3{
+    font-size: 1rem;
+}
+
+/* chat area */
+
+/* #chat_area{
+    border: 2px solid red;
+} */
+
+.mymsg{
+    /* border: 2px solid rgb(156, 121, 121); */
+    display: flex;
+    flex-direction: column;
+   
+   width: fit-content;
+   justify-content: space-between;
+   height: 520px;
+   float: right;
+   padding: 1rem;
+}
+
+.my{
+    border: 2px solid rgba(254, 254, 254, 0.106);
+    width: fit-content;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    background-color: rgb(48, 47, 47);
+}
+
+.hermsg{
+    margin-top: 4rem;
+    /* border: 2px solid rgb(156, 121, 121); */
+    display: flex;
+    flex-direction: column;
+   
+   width: fit-content;
+   justify-content: space-between;
+   height: 570px;
+   float: left;
+   padding: 1rem;
+}
+
+.her{
+    border: 2px solid rgba(254, 254, 254, 0.106);
+    width: fit-content;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    background-color: rgb(48, 47, 47);
+
+}
+
+#last{
+    margin-top: 42rem;
+}
+
+.last{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgb(207, 207, 207);
+    padding:0.6rem ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last input{
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 70%;
+}
+
+.last img{
+    width: 20px;
+    height: 20px;
+}
+
+/* #dbl11{
+    margin-top: 6rem;
+} */
